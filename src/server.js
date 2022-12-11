@@ -7,7 +7,7 @@ const contactController=require("./controllers/contact.controller");
 //using cors to allow the load the data on browser
 const cors= require("cors");
 const path =require("path");
-const corsOptions = { //* means universal
+const corsOptions = {    //* means universal
     origin: '*',  
     credentials: true,   
     optionSuccessStatus: 200,  
