@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended : false}));
 app.use("/contacts", contactController);
 
 const accountSid="ACe18f5b5191fa39f09a764170734de853";
-const authToken= "7329485be5237548963e44917f655060";
+const authToken= "0b5c0e29a13c51623c6debc9b63800b6";
 const twilioNumber= "+15139605158";
 const client= require("twilio")(accountSid, authToken);
 
